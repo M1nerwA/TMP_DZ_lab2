@@ -1,8 +1,8 @@
-#include <iostream>
+#include <iostream>//Подключение библиотек
 #include <string>
 
 int main(){
-    std::string name = "";
-    std::cin >> name;
-    std::cout << "Hello world from " << name << std::end;
+    std::string name = "";//переменная имя поьзователя
+    std::cin >> name;//Ввод имени пользователя
+    std::cout << "Hello world from " << name << std::end;//Вывод
 }
