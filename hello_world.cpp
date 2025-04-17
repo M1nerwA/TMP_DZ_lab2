@@ -1,8 +1,7 @@
 #include <iostream> //Подключение библиотек
 #include <string>
 
-int
-main()
+int main()
 {
   std::string name = ""; // переменная имя поьзователя
   std::cin >> name;      // Ввод имени пользователя
